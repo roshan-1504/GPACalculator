@@ -136,13 +136,25 @@ button:hover {
         padding: 0.5rem; /* Adjust padding for smaller screens */
     }
 
+    /*
     .course-form {
         flex-direction: column; /* Stack form elements vertically */
+       /* align-items: center;*/ /* Center align form elements horizontally */
+    /*}*/
+
+    .course-form {
+        display: flex;
+        flex-direction: row; /* Side by side layout */
+        justify-content: space-between; /* Spread elements evenly */
+        align-items: center; /* Center align vertically */
+        margin-bottom: 1rem; /* Increase margin for separation */
+        padding: 0.5rem; /* Increase padding for spacing */
     }
 
     .course-form label,
     .course-form select {
         margin: 0.25rem 0; /* Add vertical margin to separate elements */
+        text-align: center; /* Center align text within the form elements */
     }
 
     .course-form p.course-label {
@@ -157,13 +169,17 @@ button:hover {
       margin-top: 10px;
       border-radius: 8px;
     }
+    
+    input[type="number"] {
+        width: 40%; /* Adjust as needed */
+    }
 
 
   }
   
   /* Prevent zooming out on mobile devices */
   
-  /*@media (max-width: 768px) {
+  @media (max-width: 768px) {
     body {
       zoom: 1;
       -moz-transform: scale(1);
@@ -173,7 +189,7 @@ button:hover {
       -webkit-transform: scale(1);
       -webkit-transform-origin: 0 0;
     }
-  }*/
+  }
   
   
 
