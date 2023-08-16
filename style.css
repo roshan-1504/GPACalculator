@@ -2,7 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/319/190/501/carbon-fiber-minimalism-gray-black-background-dark-hd-wallpaper-preview.jpg"); /* Replace with the actual path to your image */
+    /*background-image: url("https://c4.wallpaperflare.com/wallpaper/319/190/501/carbon-fiber-minimalism-gray-black-background-dark-hd-wallpaper-preview.jpg");*/ /* Replace with the actual path to your image */
+    background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRlY2hub2xvZ3l8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60"); /* Replace with the actual path to your image */
     /*https://c4.wallpaperflare.com/wallpaper/413/925/249/minimalism-abstract-pattern-digital-art-wallpaper-preview.jpg
     https://c4.wallpaperflare.com/wallpaper/9/737/99/carbon-fiber-textured-texture-minimalism-wallpaper-preview.jpg
     https://c4.wallpaperflare.com/wallpaper/442/14/493/abstract-texture-pattern-design-wallpaper-preview.jpg
@@ -45,6 +46,7 @@ select {
     border: 1px solid #ffffff;
     border-radius: 4px;
     margin-right: 10px;
+    width: 60px;
     background-color: rgba(255, 255, 255, 0.973); /* Ash color with 70% transparency */
     color: #000; /* Black text color */
 }
@@ -73,7 +75,7 @@ button:hover {
     align-items: center;
     margin-bottom: 0.2rem; /* Decrease the margin */
     padding: 0.2rem; /* Decrease the padding */
-    background-color: #7b898e8d;
+    background-color: #0000008a;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -88,7 +90,7 @@ button:hover {
 
 .course-form label {
     margin-right: 6x;
-    color: #000; /* Black text color */
+    color: #ffffffef; /* Black text color */
 }
 
 .course-form select {
@@ -125,7 +127,7 @@ button:hover {
     display: inline-block;
     margin: 12px;
     width: 60px; /* Set a fixed width for course label */
-    color: #000; /* Set the color to black */
+    color: #ffffffd6; /* Set the color to black */
     font-size: 12px;
 }
 
@@ -169,7 +171,7 @@ button:hover {
       margin-top: 10px;
       border-radius: 8px;
     }
-    
+
     input[type="number"] {
         width: 40%; /* Adjust as needed */
     }
@@ -193,3 +195,4 @@ button:hover {
   
   
 
+  
