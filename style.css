@@ -3,11 +3,6 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("https://c4.wallpaperflare.com/wallpaper/319/190/501/carbon-fiber-minimalism-gray-black-background-dark-hd-wallpaper-preview.jpg"); /* Replace with the actual path to your image */
-    /*https://c4.wallpaperflare.com/wallpaper/413/925/249/minimalism-abstract-pattern-digital-art-wallpaper-preview.jpg
-    https://c4.wallpaperflare.com/wallpaper/9/737/99/carbon-fiber-textured-texture-minimalism-wallpaper-preview.jpg
-    https://c4.wallpaperflare.com/wallpaper/442/14/493/abstract-texture-pattern-design-wallpaper-preview.jpg
-    
-    */
     background-size: cover; /* Adjust background size as needed */
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -129,6 +124,7 @@ button:hover {
     font-size: 12px;
 }
 
+/*
 @media (max-width: 768px) {
     .task-container {
       flex-direction: column;
@@ -138,11 +134,11 @@ button:hover {
       margin-top: 10px;
       border-radius: 8px;
     }
-  }
+  }*/
   
   /* Prevent zooming out on mobile devices */
   
-  @media (max-width: 768px) {
+  /*@media (max-width: 768px) {
     body {
       zoom: 1;
       -moz-transform: scale(1);
@@ -153,5 +149,5 @@ button:hover {
       -webkit-transform-origin: 0 0;
     }
   }
-
+  */
 
