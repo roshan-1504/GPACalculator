@@ -3,6 +3,11 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("https://c4.wallpaperflare.com/wallpaper/319/190/501/carbon-fiber-minimalism-gray-black-background-dark-hd-wallpaper-preview.jpg"); /* Replace with the actual path to your image */
+    /*https://c4.wallpaperflare.com/wallpaper/413/925/249/minimalism-abstract-pattern-digital-art-wallpaper-preview.jpg
+    https://c4.wallpaperflare.com/wallpaper/9/737/99/carbon-fiber-textured-texture-minimalism-wallpaper-preview.jpg
+    https://c4.wallpaperflare.com/wallpaper/442/14/493/abstract-texture-pattern-design-wallpaper-preview.jpg
+    
+    */
     background-size: cover; /* Adjust background size as needed */
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -124,8 +129,28 @@ button:hover {
     font-size: 12px;
 }
 
-/*
+
 @media (max-width: 768px) {
+    main {
+        padding: 0.5rem; /* Adjust padding for smaller screens */
+    }
+
+    .course-form {
+        flex-direction: column; /* Stack form elements vertically */
+    }
+
+    .course-form label,
+    .course-form select {
+        margin: 0.25rem 0; /* Add vertical margin to separate elements */
+    }
+
+    .course-form p.course-label {
+        margin: 0; /* Remove margin for course label */
+    }
+}
+
+
+/*@media (max-width: 768px) {
     .task-container {
       flex-direction: column;
     }
@@ -149,5 +174,9 @@ button:hover {
       -webkit-transform-origin: 0 0;
     }
   }
+
   */
+  
+
+
 
