@@ -131,6 +131,7 @@ button:hover {
 
 
 @media (max-width: 768px) {
+    
     main {
         padding: 0.5rem; /* Adjust padding for smaller screens */
     }
@@ -147,10 +148,7 @@ button:hover {
     .course-form p.course-label {
         margin: 0; /* Remove margin for course label */
     }
-}
-
-
-/*@media (max-width: 768px) {
+    
     .task-container {
       flex-direction: column;
     }
@@ -159,11 +157,13 @@ button:hover {
       margin-top: 10px;
       border-radius: 8px;
     }
-  }*/
+
+
+  }
   
   /* Prevent zooming out on mobile devices */
   
-  /*@media (max-width: 768px) {
+  @media (max-width: 768px) {
     body {
       zoom: 1;
       -moz-transform: scale(1);
@@ -174,9 +174,6 @@ button:hover {
       -webkit-transform-origin: 0 0;
     }
   }
-
-  */
   
-
-
+  
 
