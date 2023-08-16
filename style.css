@@ -154,9 +154,4 @@ button:hover {
     }
   }
 
-  .course-form {
-    flex-wrap: nowrap; /* Prevent flex items from wrapping */
-    overflow-x: auto; /* Enable horizontal scrolling if content overflows */
-    white-space: nowrap; /* Prevent text from wrapping */
-}
 
